@@ -1,4 +1,4 @@
-describe Hat do
+describe Hat, :vcr do
   subject(:hat) { described_class.new }
 
   describe "#random_fortune" do

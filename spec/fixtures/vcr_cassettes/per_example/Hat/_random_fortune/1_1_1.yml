@@ -1,0 +1,1176 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"f2801d5ab5a3fa7f229bcc221e0184f9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=wQKV8LdECGe4IyEewfGI6njH3BaZEfrcrTCtNd8PqjtslVRhSUKUnI41j0YrdBSDaopcI%2BtByou%2F6EOidgVNyKZ6BeeHMLitTFDz8%2BCXWsqtpRwyOTGgaS0KeedHGqp6OqdIslOyXt8D2%2BCqDKvpMgds9bK5Dm1xAlt1U9E0VDWbMwKnteIGctLHqEum8sD%2FBvEqfSGVJG627t5abORAtAS6mgYO6wEySENqWPvNM1Qs4naQx%2FUCCXC7YcRn1r0JXIlHz%2Bxc9kJbxrBd--p5IQm1g1c0Q4BBmB--UnTVtGc96%2B6RVqxCLPGagA%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 344678fa-6a41-4025-bced-0049eb843d7c
+      X-Runtime:
+      - '0.007048'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"There appears to be irrefutable evidence that the mere
+        fact of overcrowding\ninduces violence.\n\t\t-- Harvey Wheeler"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:41 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"8d0c50bc5478641509930807367b90a7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=lYsX02uhjvAarz9k7TyOINkpU4CJ4N%2FQ9s9JUTFEHejmF19y%2FlgDoClRrwaqY3Gq4MLYKSf%2BfAv%2FdfuphmbkK%2F4AhYj2OcMaCxCp%2FhJRjwYycezhI4Jtuonyu48HSyEcm962uSuUATH%2FQ0rTfaUSlC6wVCPFKD1jOkvYlBxj%2BTBfpQFNo0mFIy9NkFKOIPwYeXuUJz0mKvrxFDMFCsOC5dcugwcZ4tg37nTbTYNa%2BvVV4ZvQ1h%2F7rKMrK7D6aILLhCZThJnWzrtdiBG1--08UIfRgw6sMtZ21n--sqGFGUZvrHEPXXI6hG9X7w%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 4210d584-a077-45a6-80f1-41d47d0debce
+      X-Runtime:
+      - '0.006428'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"It is one thing to praise discipline, and another to submit
+        to it.\n\t\t-- Cervantes"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:41 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"9a8a318db293e42ed49237c67145ef66"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=6Q48FUMAbrLfjVfGPbIsenChqj7OSnyr1oYxUUBDX%2BMwSiBRv1HuPA26EjH1cOCtaXcOhglC0MiROqbHBGBqK%2Fn2RlUX%2Fq06aE89mSNNwdrw%2BY5v80RJ46xF6w7qrxJ3kDqc%2F9NlGllLCxuKr%2FYiniyI7cT67jgqCOfwRSIh%2FSH%2FdhEVNM53JjdYVPW89v2Q%2BnxYAFlC6FMREgDKbl8PB32ngJb1a5cJ0L0pBbSZmxR8PB%2F%2FkCkLCFGv3VDDeGVGkDFstpMNSc9MrSs8--cLIHLHoUIrEe3yRi--7%2FQ7YvOZ8uMi4y3V%2B3iRtA%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 3a5e7fc5-a0d1-4b08-b593-14b8cca81051
+      X-Runtime:
+      - '0.007529'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Pickle''s Law:\n\tIf Congress must do a painful thing,\n\tthe
+        thing must be done in an odd-number year."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:41 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"72dc50ff6db1de6cc073d26116562af8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=1A0KNexEqfj4d2wARmwk2E6SFYp3jYpxfJACk%2Bantq75II3bsUoSqm9e4%2B3WmOC%2F5gCHOA2QuHmhXbgNM6j6P9yWtG0bnt5W4ynqjfNl9j4At9x%2FZMeLPSuvxDXdZQrrj8SCUpAYv6eUFTMZ8OZFbVbXWcyHgRrhfUSRUsVK%2BVZ50yXWKr8nd6t1%2B01zHeJp8s%2FEKNaSiLjzKGl70D9bBpNq5QVuMPAS2byE8oz%2BzuvGYcWCJLDGkmG%2B6eoikqQpuaUw5l9itSp0O3Bl--QRNpoc57ZKGnK%2Box--XBIpnCFMDsXHyyCgC9hT6g%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - c0b0178b-b452-4533-ae2a-0dbbae2814b5
+      X-Runtime:
+      - '0.007350'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"I predict that today will be remembered until tomorrow!"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:41 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"17fc4239e7447f43619ba281f77650c9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=jMB3HSp7Lo8EMzQZInKyjEg3mXGa5yvRLC29TndTnAGrOykxq7%2FTzIyLmxwGqD3DzHVUq6cAQ6n2iGpLA9AUi1SneIUEJI2WVv9yk6S%2FePUg8rkRMI9XtKtukZloswhurErhkXD3nrQD2XGw1TVVPCGxR0YBXVUJ2INcUY84mbG0s%2FNKLiEQyhVRpMguneR7XnZQma1KMIWXcFvoxOejZYDe6N7HkRXzICJ%2FqZ%2BAYEFyemAikj4YIwE16Qiufn%2BCmA34jlqAWrEcpN%2F3--6qJlxD%2By8Yb9f7l8--8MChiDwTBVWzMSdEAQB%2BYg%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 1ba704a2-13cb-49ae-a996-4bc3d036986c
+      X-Runtime:
+      - '0.006572'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Do not believe in miracles -- rely on them."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:41 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"efe9f2883f654470cf1f14b4893c758a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=4uluN27uLiAf57DwFClVh6QDHi2COdsiouFaGOjaR6Yp2JIZB8zdlTmp48I0mfjv%2BO1GMwKuq44gfZuKLYKkM82b8PaWb2BX23WYtVRQjIcrWsxsks1KlxUmiRv8UgzSq3udEWbW6VAtNPuM%2B94ffeBwvUCgBB%2FTlket24rGMZ6XzupUE%2BgUR9sXlqD2CrxQPG2or5SQ5eJ4zEc2NUOSU%2BgUuS9IRciDlAXNWk8Qpj%2BtzCyQJscoYYbmlsdHswhKBZzU7BjSag96R6Ms--0KPQximiJb3zQLNz--Fx05zBy8zEMzu%2B2hF0ENsA%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 50979c89-85c7-42d1-a7ad-386af959d5dc
+      X-Runtime:
+      - '0.007182'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"\"Life would be much simpler and things would get done
+        much faster if it\nweren''t for other people\"\n\t\t-- Blore"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:42 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"3eb0e171fdb5f6a22e38cb2022693c71"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=nlZ743OyI2CGtXdpZLOuwtMUOJFVjmKz6myewQOJbsd7A8h5R5HzC0d8Snan9G3W6sdps%2FIMudaf%2F%2FanKOh4%2FpfpiT7FmgE8YP2gmBAasMJzGkhh1yvy3WphKRMY03AUNIV%2BhR8h3H7hGr6EpsHIQm6B2MQgyP1f4yczOlcCaEdRPOyrytUHiHjArLDGFEwPrCtkQEUYXHn8txI4BX0C9Dl67eBlaRx3Rj09fB7o7wcFLb4M4A4bZLgdvib1gSH2hX55oJNdDq6WFsYo--VKLgT3QBo%2FRu2elS--mUxCN7ypneS1PBaJFAnOQw%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - abc377c2-c446-4b5b-ae2e-27474d616319
+      X-Runtime:
+      - '0.007578'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"If at first you don''t succeed, quit; don''t be a nut about
+        success."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:42 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"0906eb0db124929fa1366767d370a73a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=l77fB4UvFbMWPrwbflZh7c0lTxckaYuAOIELkx5gGfJPrNLXxfGc5fj06HqRIOqN%2Badv%2FNykSd8YRF16dhWL6Wek4cJ%2BFit%2BxIgn0sGQppaQH%2FhcePBd0fGNg%2FQkydv7pRZ5s1oKCWl86OgevpYFgxhQpVAMpjFtoPvKShxSsfscfv20%2FMC050%2FCd8CazKxN4vJoFT0bSxUBeOmsLcwI14uUbRTot22aNGg2e6G7pNBzK7dd9237aSuwHQkuqB4ddT4gG8HToqJTed8m--MYayD1DC%2FTYKWOUT--jloj%2Fs1H9z2L1B2Awurxug%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 01a552a8-0c85-4238-815b-22155c504383
+      X-Runtime:
+      - '0.007500'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"There''s got to be more to life than compile-and-go."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:42 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"099c59b3a6dc2f14b19832d1facb7a12"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=07ui3VCYXefK2QIffyn1smQyXpcEkEc8aZO5pCUGQlxQdR%2Bd9xqkV0nqmA3c2JQPtq0XMhjCsoWoUiYn0zpbIeyCS0c01FUwyKg8XIABTsFcJk%2F5hTL2%2FcSJ0c3GFqHy3S%2FSiap9rlDU6hUth0rwiWe1xSjOKz2oRA1mJw1yFshv366gSaTFP7zp3l3s4bL8bIWYWUjbI1w8a0WyfFhzfnoh8Ih8Iz0uJCTcxa7%2BB9YCXFTBu7s6TWqwGMTmUGCh2da1uxiiJqbHZ2bc--M%2BZxNircLXlXl3l7--apEoXWkUgSg%2FLo7mLfiSQg%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 19419d86-0626-40e6-92fc-4433fe138c11
+      X-Runtime:
+      - '0.006847'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Perhaps the remembrance of these things will prove a source
+        of future\npleasure.\n\t\t-- Virgil"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:42 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"87ef77ed67c2212196c828deff04ac6a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=EUnR2CQpgTFiP%2FpwSJoxLQIFI5Tnyt%2F3DcjT%2FQ1oOjXXiiKCkypYdPTQcOTzKz5xh1woywb0Ii8SLFG6vtiar6ENH%2FVRfItxDu0YECjjJyMXrOU0beNZF40UHmn4Z0ElpDvUM0RJ7F7n%2F7ksU3MeipCjAffDJxvWYGVtnKH7TwfpR25icD62B5Ko1bskn2VuJWR1oqMdaGh%2FQJNaYuK8pniB%2BPK9s%2F4bvJujXx95RQuxqP6VG5tlr5RR1HJ4yLZ9LI6K%2BVDH%2F%2FKaCmpZ--IoHqyH6KTkuCRqjU--m2BunWfxvP0aiwAujKIktg%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - f8e96157-c322-46b1-a4a9-ac9e842406a2
+      X-Runtime:
+      - '0.006776'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Happiness makes up in height what it lacks in length."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:42 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"dd9989e4f5aa567e3193e608cf1d6288"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=Ae9tW9XIU0vyXSnhucDFuUItGNR0GQNgvR9yTVAkoGHfidBbtZiajTKhxx66YHlLkQ3CnITG5nEvRtfaqOXDqOT%2FczfKGWhe35HT9A3AQ2xN9o%2Fc6Z4qC5H6mEqHW6H4q4sAqQd1gAx9X2LjL9Plf8br39dsJfXnHkJT%2BGJl4hmMkRx49ZHaHovsA24DszhDzD5va8R6M1NrL1NY4Q2S4cp4dsrVhnv46hGWinpczO7wjPGQz3FR9VgUTSTRb3kFJoBfkE7FsNT3oO%2B6--v%2BED9%2BETdQ4KOW81--3mfvln%2FQTWKWxebHy7Z36g%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 7b146414-5e39-4acb-9de6-444d00c62702
+      X-Runtime:
+      - '0.006903'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Newton''s Little-Known Seventh Law:\n\tA bird in the hand
+        is safer than one overhead."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:42 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"45c8a3e2b749455361b63d5ce33dfe4f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=LxRS5sYCqOdhWzsWQOUDoiltWDBWknD6h62CyY6f%2F8hS2S%2FGeb4QRv9FFsREejAlV4iws2AZ3EgdJuBiBig2djsb8bHzxL9HOhojyWWTQVGEvhkJczu9VI20PLlUllbNezqm%2BMwncb7Yj%2BdSrF6CGTZMyjbFYhrpt%2FxQQA4Lj33sAvk7k3y1QIukYBz%2B8gFn0aJoK%2FEBZqQ3OHlcDp2dHJYOsqtOWaqD4ItI7qiBorwRbROfWFQAboVl4bFItELxE%2B%2BH%2F51tCsWCtfDK--CBHwSESTkrMWQOg9--iZKtsYupEdHWa%2F6BMX%2FS%2FQ%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 97cc4640-76d2-4c2a-944d-d2d83a9acbb9
+      X-Runtime:
+      - '0.008087'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Did you know that for the price of a 280-Z you can buy
+        two Z-80''s?\n\t\t-- P. J. Plauger"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:42 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"85aa690c92d3c0ae7b044dd76fefec94"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=KKBA%2FbLO73OFSpoI1ctEm2wiGXaU7Yst7v%2FdhmYf9mThAyYEs2jBI9WVO%2BgqCYNiebNutk5MK2qKa%2FRdvSzEhkWx3ZUuYCYGkBwrdA17%2BX8w%2FbTTa%2B45kAbc3rhNd0xHJK7QhLlh7uF%2BevvSDIYsJpXYtBUrO8cLE0fkE3pGOpLYJKQMav5BJOvECiU04oF5hqRk%2F3LVtuZjFPSRkuNhwfYN%2FihU95eSQgGTIr7bIsrUK0ulUYYgojPwI0HEHMYP65Dlac8XijXfFqVP--J68PlrITkNDJTXeJ--VCHan%2FFdNpA5GLpR%2B8acQg%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - f932e1c0-ece9-4aed-a8de-86c77bd321db
+      X-Runtime:
+      - '0.006674'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Uncompensated overtime?  Just Say No."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"598f548d6ee9a9ea7dbf32e697109d64"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=FfiTIcfG%2Fcsw3wqcTmPP6TALfXNef5mVCKH88yxI2Xlsimwq7hQ4koLjRYh3e01n19ykNy4Ordp7dEw4XVl9wvEMxIBntiW4yxKs4P2EJQsf8bj%2BvLvoc82MFGHLKoKr9VOxCPeS%2FnGUGOK%2BBY%2FH%2F932wWZBHBQpE8Kcy32CLt%2BoOspiG4FxEQoTxs0xkRD%2BwGqgcCX7Pcb3OhO76UGGVBQULRVMJSRrzz%2B9ZTmYlujwm8YWDWD2Ghx7BMlTSTwVe8ZrBtYqtsvitObj--2NdFUA0N%2FbRsaixI--pOeLsGaEINXQkr9SJZDyOg%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 289ee066-ab76-4777-9cd5-412e10062e01
+      X-Runtime:
+      - '0.006658'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"There is no such thing as a problem without a gift for
+        you in its hands."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"c1622d538840670a0f9d7ef629b639be"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=ibjxaQLL9b1vdFqmOQVWIvH%2F%2Bwai1Gw4iXU0OXlCNQmuGqnYVtDfIWDb50S46PgbFV7McF0mlgiKWAxJEK2FiWolquXZ85DQ6CAbld0mXX%2Fr%2Bf%2FUJNFoHxehgEe1yxsS9OJCeblbeM4WnHDtIw5wgndLI92zVOf82BgbFbpZzzY%2F3tDJBaMRJfe6%2Bh0oNMqoFW9U6ZNiAtYOh6QWwI7itoFwSeJtR6d4vgVff%2F7J7PcqGNQBohSpJtlDZHuxSu6UzGr9AaHCaTWabLIZ--LzuhZLfcLA%2FAd5H8--IMXCu64JE2n%2BPxu5GH6aYQ%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 7689f253-4937-4ade-8de4-7b4489fc5d46
+      X-Runtime:
+      - '0.012422'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Nothing in life is to be feared.  It is only to be understood."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"cffeea177da75891a3319b7961ef9f5e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=C8hs393ncnKXWU20S8L7romySC0CXOtfLCbAdh6lSuJI75j2T6kdAMRS1DbUqH7bgFrdCEP2Yaqa3OX0nufgKirwrNSALsWj9tl2jFOIzHlVLNJ3cfMgIr%2BvL3UP9NrqYpzqS7GF2U%2B0XX2pcgAwH%2FApnCj3zEcvmodIiVzPESBDHwIEFtrbWPrFIg%2FYw9foy0IhUzbdpq3Tty67Nd8Cm8ESxWH9luKP9%2Fhw%2BiUXpTNzjPIwvMsadGtAAzSOJTI9uvq7XVyJpZITxmeR--x%2B71kDpUT4P3o6R2--KCMbHR5rB8VTZ8MY1%2Fr3FA%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 6b308d35-1d32-423f-b0bf-93b22b9aec9f
+      X-Runtime:
+      - '0.006834'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"QOTD:\n\t\"She''s about as smart as bait.\""}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"8126ed05d384d23f8afb7d0ed3a6af29"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=AvUkKSoiAnG0TC2KtelkCH5ksHFZqonZNksIWiJsk0lUdWkU7DNu4x61BrfezF4o%2BSa31vZ1RCvs%2BMVACQZlK48jLH7FbvyzfDX7OChNIr9auwW5L%2FkMZC2dnpnMBir%2BiHC%2F31mzNMjQiyPc11jbC4ano4XXdrAXp9T7onF1n%2FrPveSff%2B0u3Gl0pOXs6wkynLiZKZboqXa6ecMTUR4F12hU00kEsTWYGtUSxdXm2mVJtIeLj%2BcIqLOb5LQwgTJruBxNQbDLWQigjBuP--ya3e3eOgVjhoChx5--zav4Mmy6MRU6deQTbHrBqw%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - d6234f35-647f-43e4-9ee5-357b588e4a39
+      X-Runtime:
+      - '0.007474'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"We are governed not by armies and police but by ideas.\n\t\t--
+        Mona Caird, 1892"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"57045a69c5b51a548a246cdcf1e4fb03"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=hQij8DT7pwV0PJR9wvSV4afpkwsNWAj82EJ6ysiXP3K0g6DR5Uw9jWtvA39R8XENIpFsBDhb3sd2rKGiTB6wm2vYsWL9rSi5%2FOjDInI4VajunQoiHvH1ja9eHPc6UMgKf9%2B3xrat57WdgANHvQgytIeiQZh7%2FxPq7UkY7DEo6IimScUb%2B7lcX7bpfv7fGqAvpKUiQZ2y5Nq3%2FgCyIY0xoRo7GOInAth0ZT%2B9DoJrS8V0aeK4QMfrj8vMMi8IkCgzaM5pLFlE2wupkcpq--nHetDO0Iy3fKMh%2Bl--1J4riJuCBAVznpwPs1Lekw%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 5f5b33f1-6c96-4185-b0e7-dfb752b7c50b
+      X-Runtime:
+      - '0.006775'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Question: Is it better to abide by the rules until they''re
+        changed or\nhelp speed the change by breaking them?"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"3b266e0d86c415a8ef4af6be369daeee"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=glMkPprTpDF0pb8tMCU4gNxVbSooVG8QZZlU0KM9IGm4xCJN6Txhd6um1ueRLUEFTBqfoFWerHaa9a%2FKRBcfN%2BOOAgSLu7jb%2BkZtXJgCTt8DmSt0NQasveBtDHMWIzEtC0l70kadGtNO1Xm2NkZzuT%2BRZgYMaqL8Nuu0wAWdNF7eXmue5kFAQBhl6UAXlh12LW6Tu20HHYwEYOqObB9%2BE1wQsVSRHJpxVHWCMt3me9JqUCZNGqm%2BI1bjBkkZ4iyC8%2FjTM4NelUUPGkal--taV4FzXwt2jrKCvO--QqmqK5FuTmTRwDAa5ZXGKw%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 2ef4c33f-e5e0-46a8-ac92-93fad0998e0d
+      X-Runtime:
+      - '0.007779'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Coward, n.:\n\tOne who in a perilous emergency thinks with
+        his legs.\n\t\t-- Ambrose Bierce, \"The Devil''s Dictionary\""}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:23:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"89db9d5e30b0055fce71ef3474006767"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=toradrat480c5TPd%2BBph06CGsfDo5iQANAJK04zZ1RoWvAzEPe%2BwPSBMUA8ejPEzUWRjVE%2B84G2mSdJ%2BNXYnQYuoMQrhZMI7YUTIB%2B4Yhp9QFVnv%2F%2BYHkMs%2BvXvWWiuwOjl00pLtJIKiSfY4YjRvJHu%2BeE72JrgqFiKAsaLCG2hMbtrr10%2B6Y%2BmLxe0ktLtLgkm9ww07YSCHTi36aW%2Fy0zrkjFhjcvXI02dSP0MZddf7fWqdx%2BxuYtxDMAm%2BgQ7zDlvSQ74DQfdmw5G0--iMW8uYk5Mk8Qt%2FoN--4MU1i8Bc%2F3rpOFt%2FbedMww%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 4037d839-31de-4e2d-b0d5-db7b9fbd3f60
+      X-Runtime:
+      - '0.006440'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Always try to do things in chronological order; it''s less
+        confusing that way."}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:23:43 GMT
+recorded_with: VCR 5.0.0

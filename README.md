@@ -129,3 +129,40 @@ I've left the repo in this state, so feel free to run any of the commands above 
 ```
 git checkout commit-3
 ```
+
+## Commit #3
+
+Ok, we've decided that we are ok with making 20 network requests in Hat right now. We don't want to try to scale prematurely, right? We need to get tests passing for `Hat`, so we add the `:vcr` tag after we've determined that we're accepting this change.
+
+We run our tests locally to record the new cassettes:
+
+```
+rspec -r per_example_spec_helper.rb spec/fortune_spec.rb
+```
+
+![image](https://user-images.githubusercontent.com/519171/70644440-0315bf00-1c11-11ea-9a87-afc359876be4.png)
+
+And we see that CI now passes when we push:
+
+```
+bin/per_example_ci
+```
+
+![image](https://user-images.githubusercontent.com/519171/70644503-22ace780-1c11-11ea-88b7-6d573fdde128.png)
+
+One thing we want to note about the recorded cassettes, is that they tell the story that we're making 20 requests here:
+
+```
+ cat spec/fixtures/vcr_cassettes/per_example/Hat/_random_fortune/gets_a_fortune_from_one_of_its_fortunes.yml \
+  | grep "^- request" \
+  | wc -l
+      20
+```
+
+Our per-request examples remain unchanged, because they are aready passing CI and sharing the one cassette, `spec/fixtures/vcr_cassettes/per_request/api/fortune.yml`
+
+CI is passing! Move on to the next step with
+
+```
+git checkout commit-4
+```
