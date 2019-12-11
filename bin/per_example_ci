@@ -1,0 +1,3 @@
+# /usr/bin/env bash
+
+rspec -r per_example_spec_helper.rb -fd

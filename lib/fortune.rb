@@ -13,8 +13,10 @@ class Fortune
   private
 
   def get_parable
-    type = %w{good bad ok}.sample
-    "Today will be a #{type} day"
+    open("http://yerkee.com/api/fortune") do |r|
+      data = JSON.parse(r.read)
+      return data["fortune"]
+    end
   end
 
   def formatted_date

@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:13:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"1c84779d6aeff2366f30ebf1cc1dbc7c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=xfcqsjYve%2FOgXZ%2BCzqVVTGBVMlIvIozsmmWYa4qHTpmJVUI1u2CiW1hwqp7xbHPv4PlMb4WrGUCE%2BsGB1r33FEd9XbRrAqOqBBj6kDpxVEzCMl01VgBiWKb%2FVwq8Upd7nV062ig9Q5TufGANwdNvIVD3Zi48cEjuq167iSOmoKsT5XOuBO8gxvzHtoj5HZgtJO%2B5yem0rOea6oVQLoxX7lVDg0VDxHPEUPJt4omUyZvKQVRLFZwQ0yMuc07shv%2FNN92ceB0r%2FWc92xW2--OICEGPa2WYk6hRng--1Ei3zeKsHvAeZcpAaIWlwQ%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 90cef725-c7a4-4502-840f-ec9f8276a7c5
+      X-Runtime:
+      - '0.007726'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"If two wrongs don''t make a right, try three.\n\t\t-- Laurence
+        J. Peter"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:13:59 GMT
+recorded_with: VCR 5.0.0

@@ -1,4 +1,4 @@
-describe Fortune do
+describe Fortune, :vcr do
   subject(:fortune) { described_class.new(Time.new("2019-01-01")) }
 
   describe "#message" do

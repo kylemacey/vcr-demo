@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://yerkee.com/api/fortune
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Dec 2019 17:13:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"4bc720ec759ae2d29bac58d9235f3520"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _fortuneapp2_session=YgeRsXDJF7J7EHsT7dB5fYRVz00ZNROa4Bq9Qn9GPaxpMloe7V7yctq7xTDOaVvmc4H04Be%2F6rCSDcwRQZOCOF6Tzz7rmekAEtPYUyxRI%2BmpIEOpPVbrDSmnltR1AdAuP7S8tQJdQw0tQpo1NWBxfmEa%2FWk655E3uECwy4qyStL22cUgD%2FQtNgZ5gzDN9A20KtXIkZ2elOmIAefFdi6oq6aG0ETbG7BfI3nz4FwUKpGTQ76sD12Q45nRFMU87oVCJP%2BStL9HbnB%2FjCUM--Gx67TRkLJ9ydadAJ--LoneAteHFz0JywYjM48Q%2Fg%3D%3D;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 20bf8a48-2fbf-434e-b96d-52878433fdb9
+      X-Runtime:
+      - '0.007419'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"fortune":"Saint:  A dead sinner revised and edited.\n\t\t-- Ambrose
+        Bierce"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:13:59 GMT
+recorded_with: VCR 5.0.0

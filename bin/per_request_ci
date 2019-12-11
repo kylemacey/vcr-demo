@@ -1,0 +1,3 @@
+# /usr/bin/env bash
+
+VCR_RECORD=none rspec -r per_request_spec_helper.rb -fd
