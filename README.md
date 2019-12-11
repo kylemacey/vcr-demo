@@ -166,3 +166,158 @@ CI is passing! Move on to the next step with
 ```
 git checkout commit-4
 ```
+
+## Commit #4
+
+Some time goes by. Everyone love our little fortune library. People can now make informed decisions about their lives because the prophetic hat has shown them the path to true happiness. However, we realize the problem that even though people are living out their long-lived dreams, they're often not dressed for the weather of the occassion, leading to frigid smiles and sweaty hugs. No big deal. We'll just have our fortune return the current temperature as well. We don't have a thermostat, so we'll connect to the internet to get the current temperature.
+
+We get started in `fortune_spec.rb` to test our new behavior before implementing it.
+
+```
+diff --git a/spec/fortune_spec.rb b/spec/fortune_spec.rb
+index 8234f14..655c170 100644
+--- a/spec/fortune_spec.rb
++++ b/spec/fortune_spec.rb
+@@ -9,5 +9,9 @@ describe Fortune, :vcr do
+     it "outputs a fortune on a new line" do
+       expect(subject.message).to match(/\n\w+/)
+     end
++
++    it "outputs the current temperature" do
++      expect(subject.message).to match(/°C\Z/)
++    end
+   end
+ end
+\ No newline at end of file
+```
+
+Our tests fail, as we'd expect.
+
+```
+rspec -r per_example_spec_helper.rb spec/fortune_spec.rb
+```
+
+```
+  1) Fortune#message outputs the current temperature
+     Failure/Error: expect(subject.message).to match(/°C\Z/)
+
+       expected "It's 01/01/19\nRotten wood cannot be carved.\n\t\t-- Confucius, \"Analects\", Book 5, Ch. 9" to match /°C\Z/
+       Diff:
+       @@ -1,2 +1,4 @@
+       -/°C\Z/
+       +It's 01/01/19
+       +Rotten wood cannot be carved.
+       +                -- Confucius, "Analects", Book 5, Ch. 9
+
+     # ./spec/fortune_spec.rb:14:in `block (3 levels) in <top (required)>'
+```
+
+### Per example testing
+
+We add a call to the API in `fortune.rb`, and run our tests again to be notified that we've added a new network request:
+
+```
+ 3) Fortune#message outputs the current temperature
+     Failure/Error:
+       open("https://www.metaweather.com/api/location/2487956/") do |r|
+         data = JSON.parse(r.read)
+         temp = ["consolidated_weather"].first["the_temp"]
+         return "#{temp}°C"
+       end
+
+     VCR::Errors::UnhandledHTTPRequestError:
+
+
+       ================================================================================
+       An HTTP request has been made that VCR does not know how to handle:
+         GET https://www.metaweather.com/api/location/2487956/
+```
+
+We're aware of the new request, and decide to delete our existing cassettes for `Fortune`, so they get re-recorded.
+
+```
+rm -rf spec/fixtures/vcr_cassettes/per_example/Fortune
+rspec -r per_example_spec_helper.rb spec/fortune_spec.rb
+```
+
+And our tests pass!
+
+![image](https://user-images.githubusercontent.com/519171/70645694-70c2ea80-1c13-11ea-8e2c-c9bb94464c7f.png)
+
+
+We run our CI to get our PR merged, and we see that it fails because Hat is making network requests, and we forgot all about it.
+
+![image](https://user-images.githubusercontent.com/519171/70645833-b5e71c80-1c13-11ea-88ac-f3e738276d6e.png)
+
+```
+2) Hat#random_fortune gets a fortune from one of its fortunes
+     Failure/Error:
+       open("https://www.metaweather.com/api/location/2487956/") do |r|
+         data = JSON.parse(r.read)
+         temp = ["consolidated_weather"].first["the_temp"]
+         return "#{temp}°C"
+       end
+
+     VCR::Errors::UnhandledHTTPRequestError:
+
+
+       ================================================================================
+       An HTTP request has been made that VCR does not know how to handle:
+         GET https://www.metaweather.com/api/location/2487956/
+
+       VCR is currently using the following cassette:
+         - /Users/kyle/w/tmp/vcr-demo/spec/fixtures/vcr_cassettes/per_example/Hat/_random_fortune/gets_a_fortune_from_one_of_its_fortunes.yml
+```
+
+### Per request testing
+
+After adding our API call, we run our tests for `Fortune`:
+
+```
+rspec -r per_request_spec_helper.rb spec/fortune_spec.rb
+```
+
+They also fail because of the new network request to get the weather.
+
+```
+  1) Fortune#message has today's formatted date
+     Failure/Error:
+       open("https://www.metaweather.com/api/location/2487956/") do |r|
+         data = JSON.parse(r.read)
+         temp = ["consolidated_weather"].first["the_temp"]
+         return "#{temp}°C"
+       end
+
+     VCR::Errors::UnhandledHTTPRequestError:
+
+
+       ================================================================================
+       An HTTP request has been made that VCR does not know how to handle:
+         GET https://www.metaweather.com/api/location/2487956/
+```
+
+We set VCR to record the new request, since we expected these.
+
+```
+VCR_RECORD=once rspec -r per_request_spec_helper.rb spec/fortune_spec.rb
+```
+
+And our tests pass!
+
+![image](https://user-images.githubusercontent.com/519171/70646112-3e65bd00-1c14-11ea-96af-4728720bf189.png)
+
+We push up to run CI...
+
+```
+bin/per_request_ci
+```
+
+![image](https://user-images.githubusercontent.com/519171/70646165-5b9a8b80-1c14-11ea-95ad-fb69d7c1d957.png)
+
+And CI passes, never letting us know that we're now making 20 more requests every time we pull a fortune out of a hat.
+
+I've left the repo in this state, so have a look around, then run
+
+```
+git checkout commit-5
+```

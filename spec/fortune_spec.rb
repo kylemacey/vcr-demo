@@ -9,5 +9,9 @@ describe Fortune, :vcr do
     it "outputs a fortune on a new line" do
       expect(subject.message).to match(/\n\w+/)
     end
+
+    it "outputs the current temperature" do
+      expect(subject.message).to match(/°C\Z/)
+    end
   end
 end

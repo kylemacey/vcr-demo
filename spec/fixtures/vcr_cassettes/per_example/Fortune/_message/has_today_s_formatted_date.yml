@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 11 Dec 2019 17:13:59 GMT
+      - Wed, 11 Dec 2019 17:40:14 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -43,20 +43,77 @@ http_interactions:
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Etag:
-      - W/"4bc720ec759ae2d29bac58d9235f3520"
+      - W/"e769f5227b30f6d606a1de75a1010dfb"
       Cache-Control:
       - max-age=0, private, must-revalidate
       Set-Cookie:
-      - _fortuneapp2_session=YgeRsXDJF7J7EHsT7dB5fYRVz00ZNROa4Bq9Qn9GPaxpMloe7V7yctq7xTDOaVvmc4H04Be%2F6rCSDcwRQZOCOF6Tzz7rmekAEtPYUyxRI%2BmpIEOpPVbrDSmnltR1AdAuP7S8tQJdQw0tQpo1NWBxfmEa%2FWk655E3uECwy4qyStL22cUgD%2FQtNgZ5gzDN9A20KtXIkZ2elOmIAefFdi6oq6aG0ETbG7BfI3nz4FwUKpGTQ76sD12Q45nRFMU87oVCJP%2BStL9HbnB%2FjCUM--Gx67TRkLJ9ydadAJ--LoneAteHFz0JywYjM48Q%2Fg%3D%3D;
+      - _fortuneapp2_session=LjlvqQcw%2FqklwvbOonEu0CarPwo%2BK0yvXWeFchrzHlJZE9Sf1EwH2OQSbL7mt%2B7ufpQ%2F5%2BXDtyygVZttXpD0ll50pWVndHpR3nGo%2FpcsMX2LG1LLEcRzGIoS2QGnEuNAHPP1y6%2F6mIDX8gdU6u1YhOjwyEQFAi%2FGMz%2BamVGn0jvszNTyusLVOPFWQz5PeqbwKTLopPU90QLNrkWCFd2MCnmrWF0mDnkTIX4cRb6%2F2MDK1VUNtc8kIx5S6pg%2B6dgeC3pOlNFcYmOqmEzg--C5qQSMOS3kI3urUl--ARX2IQtOOAqrQ2XVV2FT0Q%3D%3D;
         path=/; HttpOnly
       X-Request-Id:
-      - 20bf8a48-2fbf-434e-b96d-52878433fdb9
+      - faf2aa39-6761-4ec9-bc19-93bf671bb367
       X-Runtime:
-      - '0.007419'
+      - '0.007045'
     body:
       encoding: ASCII-8BIT
-      string: '{"fortune":"Saint:  A dead sinner revised and edited.\n\t\t-- Ambrose
-        Bierce"}'
+      string: '{"fortune":"How many Zen Buddhist does it take to change a light bulb?\n\nTwo.  One
+        to change it and one not to change it."}'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 17:13:59 GMT
+  recorded_at: Wed, 11 Dec 2019 17:40:14 GMT
+- request:
+    method: get
+    uri: https://www.metaweather.com/api/location/2487956/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Language:
+      - en
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=2592000; includeSubDomains
+      Vary:
+      - Accept-Language, Cookie
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - DENY
+      Content-Type:
+      - application/json
+      X-Cloud-Trace-Context:
+      - 76ac98663156be82eea12f15cb80880f
+      Date:
+      - Wed, 11 Dec 2019 17:40:15 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '3525'
+    body:
+      encoding: UTF-8
+      string: '{"consolidated_weather":[{"id":6250019688546304,"weather_state_name":"Light
+        Rain","weather_state_abbr":"lr","wind_direction_compass":"SE","created":"2019-12-11T15:16:16.733838Z","applicable_date":"2019-12-11","min_temp":10.94,"max_temp":17.43,"the_temp":16.36,"wind_speed":5.163518662385005,"wind_direction":146.0,"air_pressure":1017.0,"humidity":88,"visibility":6.96184283782709,"predictability":75},{"id":5686091489214464,"weather_state_name":"Heavy
+        Rain","weather_state_abbr":"hr","wind_direction_compass":"S","created":"2019-12-11T15:16:19.825163Z","applicable_date":"2019-12-12","min_temp":12.370000000000001,"max_temp":15.59,"the_temp":14.465,"wind_speed":3.93477086497256,"wind_direction":184.45920396158243,"air_pressure":1018.0,"humidity":94,"visibility":6.132312296190249,"predictability":77},{"id":5382896594452480,"weather_state_name":"Light
+        Rain","weather_state_abbr":"lr","wind_direction_compass":"SW","created":"2019-12-11T15:16:22.837282Z","applicable_date":"2019-12-13","min_temp":11.65,"max_temp":15.825000000000001,"the_temp":15.07,"wind_speed":3.2188591790821603,"wind_direction":225.1803280052627,"air_pressure":1016.0,"humidity":90,"visibility":8.074407957528036,"predictability":75},{"id":5123141535793152,"weather_state_name":"Showers","weather_state_abbr":"s","wind_direction_compass":"NW","created":"2019-12-11T15:16:25.797011Z","applicable_date":"2019-12-14","min_temp":10.295,"max_temp":14.175,"the_temp":13.975,"wind_speed":7.952409653050187,"wind_direction":305.76088750007796,"air_pressure":1015.0,"humidity":81,"visibility":14.58544599538694,"predictability":73},{"id":6194086664994816,"weather_state_name":"Heavy
+        Cloud","weather_state_abbr":"hc","wind_direction_compass":"NW","created":"2019-12-11T15:16:28.735358Z","applicable_date":"2019-12-15","min_temp":9.715,"max_temp":13.495000000000001,"the_temp":13.26,"wind_speed":5.849214399199343,"wind_direction":322.89948942742154,"air_pressure":1017.5,"humidity":73,"visibility":17.6438350035791,"predictability":71},{"id":5765300282720256,"weather_state_name":"Showers","weather_state_abbr":"s","wind_direction_compass":"E","created":"2019-12-11T15:16:31.839964Z","applicable_date":"2019-12-16","min_temp":8.665000000000001,"max_temp":14.045,"the_temp":15.09,"wind_speed":3.80714328322596,"wind_direction":88.5,"air_pressure":1010.0,"humidity":76,"visibility":9.999726596675416,"predictability":73}],"time":"2019-12-11T09:40:15.680991-08:00","sun_rise":"2019-12-11T07:14:51.664842-08:00","sun_set":"2019-12-11T16:50:45.327132-08:00","timezone_name":"LMT","parent":{"title":"California","location_type":"Region
+        / State / Province","woeid":2347563,"latt_long":"37.271881,-119.270233"},"sources":[{"title":"BBC","slug":"bbc","url":"http://www.bbc.co.uk/weather/","crawl_rate":360},{"title":"Forecast.io","slug":"forecast-io","url":"http://forecast.io/","crawl_rate":480},{"title":"HAMweather","slug":"hamweather","url":"http://www.hamweather.com/","crawl_rate":360},{"title":"Met
+        Office","slug":"met-office","url":"http://www.metoffice.gov.uk/","crawl_rate":180},{"title":"OpenWeatherMap","slug":"openweathermap","url":"http://openweathermap.org/","crawl_rate":360},{"title":"Weather
+        Underground","slug":"wunderground","url":"https://www.wunderground.com/?apiref=fc30dc3cd224e19b","crawl_rate":720},{"title":"World
+        Weather Online","slug":"world-weather-online","url":"http://www.worldweatheronline.com/","crawl_rate":360}],"title":"San
+        Francisco","location_type":"City","woeid":2487956,"latt_long":"37.777119,
+        -122.41964","timezone":"US/Pacific"}'
+    http_version: 
+  recorded_at: Wed, 11 Dec 2019 17:40:16 GMT
 recorded_with: VCR 5.0.0
