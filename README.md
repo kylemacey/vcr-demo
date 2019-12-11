@@ -321,3 +321,50 @@ I've left the repo in this state, so have a look around, then run
 ```
 git checkout commit-5
 ```
+
+## Commit #5
+
+Ok, so we decide we can't scale to add 20 more requests to our Hat. It'll make things too slow, and people need their fortunes as quickly as possible.
+
+We decide to not have a Fortune get the weather when it initializes, but instead when it's asked for.
+
+```diff
+diff --git a/lib/fortune.rb b/lib/fortune.rb
+index 38bc5a2..a04f38f 100644
+--- a/lib/fortune.rb
++++ b/lib/fortune.rb
+@@ -4,7 +4,6 @@ class Fortune
+   def initialize(date)
+     @date = date
+     @parable = get_parable
+-    @weather = get_weather
+   end
+
+   def message
+@@ -20,8 +19,8 @@ class Fortune
+     end
+   end
+
+-  def get_weather
+-    open("https://www.metaweather.com/api/location/2487956/") do |r|
++  def weather
++    @weather ||= open("https://www.metaweather.com/api/location/2487956/") do |r|
+       data = JSON.parse(r.read)
+       temp = ["consolidated_weather"].first["the_temp"]
+       return "#{temp}°C"
+```
+
+Running our CI, we see that Hat is no longer making network requests when it is initialized.
+
+```
+bin/per_example_ci
+```
+
+![image](https://user-images.githubusercontent.com/519171/70646657-5d188380-1c15-11ea-97c2-72fbcf6a4602.png)
+
+
+This is an optimization that would not have been caught by using the per-request VCR method. CI is still passing, and we don't know that each hat is making 40 network requests until we see performance issues in production.
+
+## Conclusion
+
+We want to be intentional about making network requests. They're a dependency on an external resource outside our control, and they will add an unknown amount of latency to our application. VCR is designed to be cogniscent of new network requests and protect developers from making them in unexpected places. Sure, we make more cassettes, but it's also a great way to encourage decoupling our objects, as having dependencies on each other will cause our application to bloat out requests. We saw this when we had `Hat` coupled to `Fortune`'s network request.

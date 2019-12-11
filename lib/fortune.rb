@@ -4,7 +4,6 @@ class Fortune
   def initialize(date)
     @date = date
     @parable = get_parable
-    @weather = get_weather
   end
 
   def message
@@ -20,8 +19,8 @@ class Fortune
     end
   end
 
-  def get_weather
-    open("https://www.metaweather.com/api/location/2487956/") do |r|
+  def weather
+    @weather ||= open("https://www.metaweather.com/api/location/2487956/") do |r|
       data = JSON.parse(r.read)
       temp = ["consolidated_weather"].first["the_temp"]
       return "#{temp}°C"
